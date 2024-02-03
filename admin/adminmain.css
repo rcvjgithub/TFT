@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+  /*  To shorten the code, it is also possible to specify all the background properties in one single property. This is called a shorthand property.
+        background: #ffffff url("img_tree.png") no-repeat right top;*/
+  background-image: url("images/snowfield.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+/**headerbar**/
+#mainheader {
+  height: 50px;
+  width: 1582px;
+  padding: 10px;
+  position: absolute;
+  background-color: hwb(184 50% 20%);
+  top: 0;
+  left: 270px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar {
+  width: 230px;
+}
+.navbar ul {
+  list-style-type: none;
+  background-color: hsl(0, 0%, 25%);
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+.navbar a:hover {
+  background-color: hsl(0, 0%, 10%);
+}
+.navbar li {
+  float: left;
+}
+
+#gsearch {
+  margin-left: 50%;
+}
+
+/*sidebar*/
+.sidebar {
+  position: fixed;
+  left: 0;
+  width: 270px;
+  height: 100%;
+  background-color: hsl(180, 6%, 21%);
+}
+
+.sidebar header {
+  font-size: 22px;
+  color: aliceblue;
+  text-align: center;
+  line-height: 70px;
+  background: rgb(177, 177, 181);
+  user-select: none;
+}
+
+.sidebar ul {
+  list-style-type: none;
+}
+.sidebar ul a {
+  text-decoration: none;
+  display: block;
+  height: 100%;
+  width: 100%;
+  line-height: 65px;
+  font-size: 20px;
+  color: white;
+
+  box-sizing: border-box;
+  border-bottom: 1px solid black;
+}
+
+.sidebarlink ul li:hover a {
+  padding-left: 50px;
+}
+
+main {
+  top: 90px;
+  left: 300px;
+}

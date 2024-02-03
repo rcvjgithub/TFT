@@ -1,0 +1,47 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  min-height: 100vh;
+}
+main {
+  background-image: url("images/shop.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 3em;
+}
+.heading {
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.726);
+  border-top-right-radius: 35px;
+  border-bottom-left-radius: 35px;
+}
+h1,
+p {
+  color: aliceblue;
+  font-size: 30px;
+}
+main img {
+  height: 300px;
+}
+.content {
+  height: 500px;
+}
+#upperwear {
+  background-color: aqua;
+}
+#bottomwear {
+  background-color: blanchedalmond;
+}
+#footwear {
+  background-color: darkcyan;
+}

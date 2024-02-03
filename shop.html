@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Shoppage Timeless Fasion</title>
+    <script
+      src="https://kit.fontawesome.com/e8fa2e31b4.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/92d70a2fd8.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/shoppingpage.css" />
+
+    <!--The defer attribute is used to indicate that a script should be executed after the document has been parsed. It works only with external scripts.-->
+    <script src="shop.js" defer></script>
+  </head>
+
+  <body>
+    <header id="header2">
+      <h2 class="logo">Logo</h2>
+      <nav class="navigation">
+        <a href="home.php">HOME</a>
+        <a href="about.html">ABOUT</a>
+        <a href="#">SERVICES</a>
+        <a href="#">CONTACT</a>
+        <button class="btnLogin-popup">Login</button>
+      </nav>
+    </header>
+
+    <div class="container">
+      <aside class="sidebar">
+        <div class="sidehead">
+          <div class="dots">
+            <i class="fa-solid fa-circle"></i>
+            <i class="fa-solid fa-circle" style="color: #333"></i>
+            <i class="fa-solid fa-circle"></i>
+          </div>
+          <hr style="margin: 15px 0; border: 1px solid #eee" />
+        </div>
+        <div class="sidebody" style="height: 69vh">
+          <div class="searchBar">
+            <input
+              placeholder="Search..."
+              id="searchBar"
+              name="searchBar"
+              type="text"
+            />
+            <i class="fa-solid fa-magnifying-glass glass" id="btn"></i>
+          </div>
+        </div>
+
+        <div>
+          <div id="root2"></div>
+          <div class="sidebar2">
+            <div class="head2"><p>My Cart</p></div>
+            <div id="cartItem">Your cart is empty</div>
+            <div class="foot">
+              <h3>Total</h3>
+              <h2 id="total">$ 0.00</h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="sidefoot">
+          <hr style="margin: 15px 0; border: 1px solid #eee" />
+          <div class="social-icons">
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-square-github"></i>
+          </div>
+        </div>
+      </aside>
+
+      <div class="data">
+        <div class="top">
+          <div class="cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <p id="count">0</p>
+          </div>
+          <p>TFT.com</p>
+        </div>
+        <div class="header">
+          <p>BUY EVERYTHING ONLINE</p>
+        </div>
+        <div class="body">
+          <div id="root"></div>
+        </div>
+      </div>
+    </div>
+    <script></script>
+  </body>
+</html>

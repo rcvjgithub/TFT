@@ -1,0 +1,114 @@
+<html>
+  <head>
+    <title>ABOUT US</title>
+    <link rel="stylesheet" href="css/about.css" />
+    <link rel="stylesheet" href="css/navigation.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+  </head>
+  <body>
+    <nav class="navigation">
+      <ul class="sidebar">
+        <li onclick="hideSidebar()">
+          <a href="#"
+            ><img src="css/images/close.png" alt="" class="close"
+          /></a>
+        </li>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="shop.html">SHOP</a></li>
+        <li><a href="404.html">SERVICE</a></li>
+        <li>
+          <a href="404.html">Login</a>
+        </li>
+      </ul>
+
+      <ul>
+        <div class="logo">
+          <li>
+            <a href="#"
+              ><img src="image/logo-.png" alt="Timless Fasion Threads" />
+            </a>
+          </li>
+          <li>
+            <a href="#"><h2>TFT</h2></a>
+          </li>
+        </div>
+        <li class="hideOnMobile"><a href="about.html">ABOUT</a></li>
+        <li class="hideOnMobile"><a href="shop.html">SHOP</a></li>
+        <li class="hideOnMobile"><a href="404.html">SERVICE</a></li>
+        <li class="hideOnMobile"><a href="404.html">Login</a></li>
+        <li onclick="showSidebar()" class="Menuicon">
+          <a href="#"
+            ><img src="css/images/menu.png" alt="" style="height: 22px"
+          /></a>
+        </li>
+      </ul>
+    </nav>
+    <script>
+      function showSidebar() {
+        const sidebar = document.querySelector(".sidebar");
+        sidebar.style.display = "flex";
+      }
+      function hideSidebar() {
+        const sidebar = document.querySelector(".sidebar");
+        sidebar.style.display = "none";
+      }
+    </script>
+
+    <div class="main">
+      <div class="Container" id="Mission">
+        <h2>Mission</h2>
+        <p>
+          To empower customers by providing a seamless and enjoyable online
+          shopping experience, <br />
+          offering a diverse range of high-quality products while prioritizing
+          customer satisfaction, innovation, sustainability.
+        </p>
+      </div>
+      <div class="Container" id="Vision">
+        <h2>Vision</h2>
+        <p>
+          To become the go-to online shopping destination, recognized for our
+          commitment to efficiency, reliability,<br />
+          and customer-centric values. We aspire to create a platform that not
+          only meets but exceeds customer expectations, fostering a community of
+          satisfied and loyal shoppers. Our vision includes embracing
+          technological advancements, promoting sustainability, and contributing
+          positively to the wider global community.
+        </p>
+      </div>
+      <div class="Container" id="Content">
+        <h2>Content</h2>
+        <p>
+          To become the go-to online shopping destination, recognized for our
+          commitment to efficiency, reliability,<br />
+          and customer-centric values. We aspire to create a platform that not
+          only meets but exceeds customer expectations, fostering a community of
+          satisfied and loyal shoppers. Our vision includes embracing
+          technological advancements, promoting sustainability, and contributing
+          positively to the wider global community.
+        </p>
+
+        <p>
+          1. Efficiency: Prioritize swift and seamless shopping experiences for
+          customers, ensuring quick navigation and easy transactions. <br />
+          2. Reliability: Build trust by consistently delivering high-quality
+          products and reliable services. <br />
+          3. Customer-Centric: Put customers first, providing excellent customer
+          support and personalized shopping recommendations.
+        </p>
+      </div>
+    </div>
+
+    <footer>
+      <div class="maincontainer">
+        <p>Visit us on...</p>
+        <div class="icon">
+          <a href="404.html"><img src="css/images/facebook.png" alt="" /></a>
+          <a href="404.html"><img src="css/images/instagram.png" alt="" /></a>
+          <a href="404.html"><img src="css/images/twitter.png" alt="" /></a>
+          <a href="404.html"><img src="css/images/tik-tok.png" alt="" /></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

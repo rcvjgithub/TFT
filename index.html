@@ -1,0 +1,86 @@
+<html>
+  <head>
+    <title>HOMEPAGE</title>
+    <link rel="stylesheet" href="css/Index.css" />
+    <link rel="stylesheet" href="css/navigation.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+  </head>
+  <body>
+    <nav class="navigation">
+      <ul class="sidebar">
+        <li onclick="hideSidebar()">
+          <a href="#"
+            ><img src="css/images/close.png" alt="" class="close"
+          /></a>
+        </li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="shop.html">SHOP</a></li>
+        <li><a href="404.html">SERVICE</a></li>
+        <li>
+          <a href="404.html">Login</a>
+        </li>
+      </ul>
+
+      <ul>
+        <div class="logo">
+          <li>
+            <a href="#"
+              ><img src="image/logo-.png" alt="Timless Fasion Threads" />
+            </a>
+          </li>
+          <li>
+            <a href="#"><h2>TFT</h2></a>
+          </li>
+        </div>
+        <li class="hideOnMobile"><a href="about.html">ABOUT</a></li>
+        <li class="hideOnMobile"><a href="shop.html">SHOP</a></li>
+        <li class="hideOnMobile"><a href="404.html">SERVICE</a></li>
+        <li class="hideOnMobile"><a href="404.html">Login</a></li>
+        <li onclick="showSidebar()" class="Menuicon">
+          <a href="#"
+            ><img src="css/images/menu.png" alt="" style="height: 22px"
+          /></a>
+        </li>
+      </ul>
+    </nav>
+    <script>
+      function showSidebar() {
+        const sidebar = document.querySelector(".sidebar");
+        sidebar.style.display = "flex";
+      }
+      function hideSidebar() {
+        const sidebar = document.querySelector(".sidebar");
+        sidebar.style.display = "none";
+      }
+    </script>
+
+    <main>
+      <div class="heading">
+        <h1>
+          Give your workout <br />
+          A new style
+        </h1>
+        <p>
+          things you wear to cover your body and keep you warm, <br />
+          to be comfortable, or for the way they make you look <br />
+          I’ve got all these clothes that I never wear.
+        </p>
+      </div>
+      <img src="css/images/logo-.png" alt="clothes" />
+    </main>
+    <section class="content" id="upperwear"></section>
+    <section class="content" id="bottomwear"></section>
+    <section class="content" id="footwear"></section>
+    <footer>
+      <div class="maincontainer">
+        <p>Visit us on...</p>
+        <div class="icon">
+          <a href="404.html"><img src="css/images/facebook.png" alt="" /></a>
+          <a href="404.html"><img src="css/images/instagram.png" alt="" /></a>
+          <a href="404.html"><img src="css/images/twitter.png" alt="" /></a>
+          <a href="404.html"><img src="css/images/tik-tok.png" alt="" /></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
